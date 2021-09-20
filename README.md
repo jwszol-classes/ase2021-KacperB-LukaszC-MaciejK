@@ -125,7 +125,7 @@ sc.install_pypi_package("time")
 2. Następnie wyodrębniamy kolumny, które nas interesują
 ![Model](./zdjecia/which_columns.png)
 
-3. Łączymy dane w jeden, większy dataframe
+3. Łączymy dane w jeden, większy dataframe</br>
 ![Model](./zdjecia/union.png)
 
 4. Rozdzielamy je względem liczby pasażerów
