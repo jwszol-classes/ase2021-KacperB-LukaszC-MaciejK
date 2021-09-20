@@ -195,6 +195,33 @@ Instancje m5.xlarge, 1 master node, 0 core nodes
 
 
 ## Wnioski z analizy danych. 
+Rozkład poszczególnych sposobów zapłaty ze względu na liczbę pasażerów w maju 2019:
+
+![Model](./wykresy/paybynum_2019.png) 
+
+Rozkład poszczególnych sposobów zapłaty ze względu na liczbę pasażerów w maju 2020:
+
+![Model](./wykresy/paybynum_2020.png) 
+
+Ogólny rozkład poszczególnych sposobów zapłaty ze względu na liczbę pasażerów:
+
+![Model](./wykresy/paybynum_all.png) 
+
+Procentowy rozkład sposobów zapłaty kolejno na maj 2019 oraz maj 2020:
+
+![Model](./wykresy/pie_chart.png) 
+
+Sumaryczna ilość przejazdów w danym miesiącu:
+* maj 2019 - 8070148
+* maj 2020 - 405731
+
+
+Z pierwszych wykresów możemy zauważyć, że liczba pasażerów nie ma szczególnego wpływu na ostateczny sposób zapłaty. W maju 2019 widoczny jest wyraźny wzrost w płatności gotówką, w momencie gdy przewożonych jest 4 pasażerów, jednak sytuacja ta nie powtarza się zarówno w przyszłym roku, jak i dla większej liczby pasażerów.
+
+W maju 2020 notujemy widoczny spadek w procentowej liczbie płatności kartą w stosunku do poprzedniego roku. Różnica ta jest zaskakująca, ze względu na to, że maj 2020 był jednym z pierwszych miesiąców pandemii, kiedy to w dużym stopniu zachęcono do płatności kartą. Jednym z powodów powyższej statystyki może być fakt, że ludzie w tym okresie w panice przed upadłością banków masowo wypłacali swoje oszczędności.
+
+Z sumarycznej ilości przejazdów widać jak mocno ucierpiał rynek taksówkarski podczas pandemii. Różnica między majem 2019 a majem 2020 jest ogromna, niemal dwudziestokrotna. Poza pandemią, powodem takiego spadku może być też stale rosnąca popularność innych firm przewozowych.
+
 
 [1]: <https://towardsdatascience.com/how-to-set-up-a-cost-effective-aws-emr-cluster-and-jupyter-notebooks-for-sparksql-552360ffd4bc>
 [2]: <https://docs.aws.amazon.com/emr/latest/ManagementGuide/emr-managed-notebooks-considerations.html>
