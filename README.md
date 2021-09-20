@@ -119,6 +119,24 @@ sc.install_pypi_package("time")
 
 ## Implementacja rozwiązania z wykorzystanie obiektów DataFrame
 
+1. Zaczynamy od wczytania plików csv 
+![Model](./zdjecia/buckets.png)
+
+2. Następnie wyodrębniamy kolumny, które nas interesują
+![Model](./zdjecia/which_columns.png)
+
+3. Łączymy dane w jeden, większy dataframe
+![Model](./zdjecia/union.png)
+
+4. Rozdzielamy je względem liczby pasażerów
+![Model](./zdjecia/by_number.png)
+
+5. Następnie dla każdej liczby pasażerów wyliczamy procentowe rozłożenie typów płatności wykorzystywanych w tej grupie
+![Model](./zdjecia/percentages.png)
+
+6. Ostatecznie prezentujemy dane za pomocą wykresu słupkowego w module matplotlib
+![Model](./zdjecia/plotting.png)
+
 ## Czas wykonania w zależności od konfiguracji klastra
 
 Instancje m5.xlarge, 1 master node, 7 core nodes
